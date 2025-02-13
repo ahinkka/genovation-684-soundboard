@@ -50,3 +50,11 @@ worked for me after I had added my user into the `dialup` group (and logged in a
 - https://www.genovation.com/downloads/
   - Direct link to MacroMaster684 software: https://www.genovation.com/files/684ver4_30.exe
   - Direct link to 684 manual: https://www.genovation.com/files/684usermanual.pdf
+
+## License
+
+This software is licensed under GPL-3.0 (or later) license. The libraries it
+uses are licensed under their own licenses.
+
+License text is available in LICENSE file or from
+https://www.gnu.org/licenses/gpl-3.0.txt.
