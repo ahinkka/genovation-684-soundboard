@@ -26,6 +26,19 @@ cp soundboard.ini.sample soundboard.ini # and configure the sounds
 The script has a working `--help` so that can be used to query its command
 line options.
 
+### Runtime dependencies in Debian based distributions (e.g. Raspberry Pi OS)
+
+The following packages should contain all the necessary runtime dependencies:
+- python-serial
+- sox
+- libsox-fmt-all
+
+I.e. running e.g.
+```
+apt-get install python-serial sox libsox-fmt-all
+```
+should get you into a state where you can start the program.
+
 ## Running MacroMaster684 software in Wine
 
 Requires both proper symlinking in `~/.wine/dosdevices/` and the registry
